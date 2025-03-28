@@ -179,19 +179,22 @@ body{
 }
 
 
-/*.box {
-    width: 100px;
-    height: 100px;
+.box {
+    width: 400px;
+    height: 500px;
     background-color: #746c6d;
     position: absolute;
     cursor: grab;
     display: flex;
+    background-image: url(assets/papel.jpg);
     align-items: center;
     justify-content: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: "Reenie Beanie";
+    font-size: 24px;
+    font-style: normal;
+
+    
 }*/
 
 /*codigo para la pagina de MAR*/
@@ -202,7 +205,9 @@ body{
    color: #5a5d61;
    padding: 10px;
    font-size: 12px;
-   font-family: 'Sunset Script', sans-serif;
+   font-family: "Reenie Beanie";
+   font-style: normal;
+
 }
 
 .rectanguloMAR{
@@ -226,14 +231,15 @@ body{
 .ventanaMAR{
     display:none;
     position: absolute;
-    width: 350px;
-    height: 500px;
+    width: 450px;
+    height: 700px;
     background-image: url(assets/papel.jpg);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     right: 20%;
     bottom: 20%;
+    
 
 }
 

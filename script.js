@@ -1,4 +1,4 @@
-/*const box = document.getElementById("movableBox");
+const box = document.getElementById("movableBox");
 let offsetX, offsetY, isDragging = false;
 
 box.addEventListener("mousedown", (e) => {
@@ -18,8 +18,6 @@ document.addEventListener("mouseup", () => {
     isDragging = false;
     box.style.cursor = "grab";
 });
-
-*/
 
 /*Codigo de pagina MAR*/
 
