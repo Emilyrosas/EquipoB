@@ -137,7 +137,7 @@ body{
     font-size: 20px;
     padding: 10px;
     float: right;
-    height: 935px;
+    height: 847px;
     width: 85%;
 }
 .centro{
@@ -145,7 +145,7 @@ body{
     font-size: 20px;
     padding: 10px;
     float: left;
-    height: 935px;
+    height: 847px;
     width: 10%;
 }
 .centro2{
@@ -161,7 +161,7 @@ body{
     font-size: 20px;
     padding: 10px;
     float: left;
-    height: 935px;
+    height: 847px;
     width: 5%;
 }
 .pJ1{
@@ -189,7 +189,7 @@ body{
     background-image: url(assets/papel.jpg);
     align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: #000000;
     font-family: "Reenie Beanie";
     font-size: 24px;
     font-style: normal;
@@ -215,7 +215,7 @@ body{
     width:350px;
     height:500px;
     background-color: #5a5d61;
-    color: white;
+    color: rgb(255, 255, 255);
     display:flex;
     justify-content: center;
     align-items:center;
