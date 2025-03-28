@@ -18,3 +18,29 @@ document.addEventListener("mouseup", () => {
     isDragging = false;
     box.style.cursor = "grab";
 });
+
+*/
+
+/*Codigo de pagina MAR*/
+
+function mostrardiario() {
+    document.querySelector(".rectanguloMAR").style.display= "none";
+    document.getElementById("ventanaMAR").style.display= "flex";
+}
+function cerrardiario() {
+    document.getElementById("ventanaMAR").style.display= "none";
+    document.querySelector(".rectanguloMAR").style.display= "flex";
+    
+}
+
+/*codigo para Serhu*/
+
+function mostrarnoti() {
+    document.querySelector(".notiSer").style.display= "none";
+    document.getElementById("ventanaSer").style.display= "flex";
+}
+function cerrarnoti() {
+    document.getElementById("ventanaSer").style.display= "none";
+    document.querySelector(".notiSer").style.display= "flex";
+    
+}
