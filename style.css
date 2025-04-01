@@ -193,9 +193,9 @@ body{
     font-family: "Reenie Beanie";
     font-size: 24px;
     font-style: normal;
-
+    padding: 10px;
     
-}*/
+}
 
 /*codigo para la pagina de MAR*/
                 
@@ -214,7 +214,7 @@ body{
     
     width:350px;
     height:500px;
-    background-color: #5a5d61;
+    background-color: #ac8f46;
     color: rgb(255, 255, 255);
     display:flex;
     justify-content: center;
@@ -233,13 +233,12 @@ body{
     position: absolute;
     width: 450px;
     height: 700px;
-    background-image: url(assets/papel.jpg);
+    background-image: url(assets/diario_mar.jpg);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    right: 20%;
-    bottom: 20%;
-    
+    left: 35%;
+    bottom: 0%;
 
 }
 
@@ -297,7 +296,7 @@ body{
 
 }
 
-.barra-superior {
+/*.barra-superior {
     width: 95%;
     height: 45px;
     background: #3848d9;
@@ -309,18 +308,18 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     font-weight: bold;
-}
+}*/
 
 .cerrarSer{
 
     padding: 5px 10px;
-    top:2px;
-    right: 5px;
+    top:-70px;
+    right: -1px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     color: red;
-    position: relative;
+    position: absolute;
 
 }
 
@@ -367,6 +366,18 @@ body{
     right:10%;
     bottom: 75%;
     padding: 10px;
+}
+
+
+.imagsusa{
+    padding: 50px;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    right: -10%;
+    bottom: 10%;
 }
 
 
