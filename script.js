@@ -42,3 +42,4 @@ function cerrarnoti() {
     document.querySelector(".notiSer").style.display= "flex";
     
 }
+
