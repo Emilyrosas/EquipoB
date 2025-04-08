@@ -31,152 +31,25 @@ body{
     width: 50%;
     margin: 25px 50px 75px 100px
 }
-.izquierdaF{
-    background-color:#ffffff;
-    padding: 10px;
-    float: center;
-    height: 800px;
-    width: 28%;
-    margin: 10px 50px 80px 20px;
-    background-image: url("assets/frida/fondo_chat_frida.png");
-}
+
 @media screen and (max-Width:850px){
     .izquierda, .centro, .derecha{
         width: 100%;
     }
 }
-.chat1{
-    font-weight:100;
-    font-style:normal;
-    font-family: 'Helvetica';
-    color: #000000;
-    font-size: 20px;
-    text-align: left;
-    margin: 20px 6px;
-    border: 6px solid #ffffff;
-    background-color:#ffffff;
-    border-radius: 10px;
-}
-.chat2{
-    font-weight:100;
-    font-style:normal;
-    font-family: 'Helvetica';
-    color: #000000;
-    font-size: 20px;
-    text-align: left;
-    margin: 6px 6px;
-    border: 6px solid #95bed0;
-    background-color:#95bed0;
-    border-radius: 10px;
-}
-.busqueda{
-    font-weight:100;
-    font-style:normal;
-    font-family: 'Calibri';
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-}
+
 
 /*HISTORIA DE VIKTOR*/
 .body7{
-    background-image: url("assets/victor/escritorio_victor.png");
-    height: 1200px;
+    background-color:#dfe0e2;
 }
-.pagina1{
-    font-weight:100;
-    font-style:normal;
-    font-family: 'Learn Write';
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-}
-.pagina2{
-    font-weight:100;
-    font-style:normal;
-    font-family: 'Learn Write';
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-}
-.derechaV{
-    background-color:#d7d7d0;
-    background-image: url("assets/victor/pag_2_v.png");
-    padding: 10px;
-    float: right;
-    height: 800px;
-    width: 50%;
-    margin: 75px 166px 75px 0px;
-}
-.izquierdaV{
-    background-color:#d7d7d0;
-    background-image: url("assets/victor/pag_1_v.png");
-    padding: 10px;
-    float: center;
-    height: 800px;
-    width: 50%;
-    margin: 75px 0px 75px 166px;
-}
-@media screen and (max-Width:850px){
-    .izquierda, .centro, .derecha{
-        width: 100%;
-    }
-}
+
 
 /*HISTORIA DE JUANA*/
 .body8{
     background-color:#dfe0e2;
 }
-*{
-    color: #f0f8ff;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-.derecha{
-    background-color:#518bbf;
-    font-size: 20px;
-    padding: 10px;
-    float: right;
-    height: 847px;
-    width: 85%;
-}
-.centro{
-    background-color:#f0f8ff;
-    font-size: 20px;
-    padding: 10px;
-    float: left;
-    height: 847px;
-    width: 10%;
-}
-.centro2{
-    background-color: #b6e9ff;
-    border-width: 8px;
-    border: 8px solid #b6e9ff;
-    border-radius: 5px;
-    border-top: 8px;
-    border-bottom: 8px;
-}
-.izquierda{
-    background-color:#f0f8ff;
-    font-size: 20px;
-    padding: 10px;
-    float: left;
-    height: 847px;
-    width: 5%;
-}
-.pJ1{
-    color: black;
-    text-align:left;
-}
-.pJ2{
-    color: black;
-    text-align:left;
-}
-@media screen and (max-Width:950px){
-    .izquierda, .centro, .derecha{
-        width: 100%;
-    }
-}
+
 
 
 .box {
